@@ -30,7 +30,7 @@ def valid_phone_number?(phone)
    puts phone
    
    #phone.scan(/[!0-9]/)
-   phone.delete "!@#$%^&*()A-Za-z-=+"
+   phone.delete "!@#$%^&*+=)-(A-Za-z"
    puts phone
    if(phone.length == 10)
      return true
