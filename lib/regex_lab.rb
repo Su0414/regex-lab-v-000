@@ -29,7 +29,9 @@ def first_word_capitalized_and_ends_with_punctuation?(text)
   arr1 = text.scan(/^[A-Z]/)
   arr2 = text.scan(/[.]$/)
   arr3 = arr1 & arr2
+  
   puts arr3
+  
   valid = false
    if(arr3.length == 2)
       valid = true
