@@ -32,6 +32,5 @@ def valid_phone_number?(phone)
    if(phone.length == 10)
       valid = true
    end
-
   valid   
 end
