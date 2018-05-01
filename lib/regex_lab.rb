@@ -27,11 +27,9 @@ def first_word_capitalized_and_ends_with_punctuation?(text)
 end
 
 def valid_phone_number?(phone)
-   #puts phone
-   
-   phone.scan(/[0-9]/)
-   #phone.delete "!@#$%^&*-+=()A-Za-z"
+   phone = phone.scan(/[0-9]/)
    puts phone
+   
    if(phone.length == 10)
      return true
    else 
