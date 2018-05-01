@@ -15,11 +15,11 @@ end
 
 def words_five_letters_long(text)
   arr1 = []
+  arr2 = []
+  arr3 = []
   arr1 = text.split(" ")
-  
   arr2 = text.scan(/\w{5}/)
- 
- 
+  arr3 = arr1 & arr2 
  end
 
 def first_word_capitalized_and_ends_with_punctuation?(text)
