@@ -34,7 +34,7 @@ def first_word_capitalized_and_ends_with_punctuation?(text)
   puts arr3
   
   valid = false
-   if(arr3.length == 2)
+   if(arr1.length == 1 && arr2.length == 1)
       valid = true
    end
   valid   
