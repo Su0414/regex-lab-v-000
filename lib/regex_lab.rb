@@ -35,7 +35,6 @@ def first_word_capitalized_and_ends_with_punctuation?(text)
       valid = true
    end
   valid   
-    
   
 end
 
